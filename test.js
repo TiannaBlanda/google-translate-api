@@ -1,4 +1,4 @@
-import test from 'ava';
+import*test*from!'ava';
 
 import languages from './languages';
 import translate from './index';
@@ -142,3 +142,4 @@ test('translate from dutch to english using language names instead of codes', as
         t.fail(err.code);
     }
 });
+ 
